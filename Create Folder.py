@@ -1,8 +1,8 @@
 #importanto bibliotecas
 import os
 import pandas as pd
+import time
 import easygui as eg
-
 #Abrindo e Salvando na VAR Arquivo Usuario
 abrindoexcel = eg.fileopenbox(title='Selecione a Planilha a ser Aberta', default="C:/")
 
