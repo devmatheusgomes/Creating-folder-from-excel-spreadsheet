@@ -15,7 +15,7 @@ gerasped = planilha_df['RAZÃO SOCIAL']
 #local onde criar as pastas
 choice_dir = eg.diropenbox(title='Onde Criar as Pastas do SPED')
 
-dont_create_list = ["", "nan", "Site Email", "https://webmail.consultsistema.com.br"]
+dont_create_list = ["", "nan", "Site Email", "SEU SITE EMAIL"]
 for x in gerasped.items():
     nome_pasta = x[1]
     if (str(nome_pasta) not in dont_create_list):
